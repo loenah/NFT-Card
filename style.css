@@ -1,0 +1,111 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+}
+
+article {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #14253d;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.img-nft {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#heading1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+#para-1 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: hsl(215, 51%, 70%);
+}
+
+#first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.eth-group,
+.clock-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.eth-icon {
+  width: 12px;
+}
+
+#eth-det {
+  color: #00fff7;
+  font-size: 12px;
+}
+
+.clock-icon {
+  width: 14px;
+}
+
+#clock-det {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+}
+
+#line {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  width: 100%;
+  margin: 16px 0;
+}
+
+#last {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid white;
+  object-fit: cover;
+}
+
+#details {
+  font-size: 16px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+#details strong {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
